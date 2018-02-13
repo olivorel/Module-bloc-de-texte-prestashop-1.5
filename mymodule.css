@@ -1,0 +1,46 @@
+div#mymodule_block_bottom.block_module {
+    margin-top: 130px;
+    padding-top: 80px;
+    margin-bottom: 15px;
+}
+
+div#mymodule_block_bottom.block_module > div.block_bottom h2 {
+color: #679700;
+margin-bottom: 14px;
+margin-top: 0px;
+padding-top: 0px;
+padding-left: 0px;
+background: none;
+font-size: 16px;
+font-family: "Cabin",Arial,Helvetica,sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+div#mymodule_block_bottom.block_module > div.block_bottom p {
+	line-height: 15px;
+	text-align: justify;
+	padding-left: 0px;
+}
+
+div#mymodule_block_bottom.block_module > div.block_bottom {
+margin-top: 60px;
+padding-right: 10px;
+padding-left: 10px;
+border: solid 1px #d6d2cb;
+}
+
+@media (max-width: 991px) {
+  div#mymodule_block_bottom.block_module {
+   /*margin-top: 0;*/
+    padding-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+	max-width: 365px;
+	display: block;
+	margin: 20px auto !important;
+	float: none;
+  }
+  div#mymodule_block_bottom.block_module > div.block_bottom {
+margin-top: 0;
+}
